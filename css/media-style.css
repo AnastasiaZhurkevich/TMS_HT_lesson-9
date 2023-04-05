@@ -1,0 +1,91 @@
+@media (max-width: 1024x) , (orientation: portrait) {
+  .first{
+    height: 25vh;
+  }  
+  .second {
+      flex-direction: column;
+      height: 70vh;
+  }
+  .third {
+    width: 100%;
+    flex-direction: row;
+  }
+  .fourth {
+    justify-content: space-between;
+    width: 67%;
+    margin: 0px 0px;
+  }
+  .fourth>div{
+    margin: 0px;
+  }
+  .third-two{
+    width: 33%;
+    margin: 0px 5px 0px 1px;
+  }
+  .fifth {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    height: 71vh;
+  }
+}
+@media (max-width:320px) and  (orientation: portrait) {
+  .first{
+    height: 23vh;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .third {    
+    flex-direction: column;
+  }
+  .third-two{
+    width: 100%;
+    margin: 5px 0px;
+    height: 23vh;
+  }  
+  .fourth {
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0px;
+}
+  .fourth>div{
+    height: 23vh;
+  }
+  .fifth{
+    width: 100%;
+    margin: 0px;
+    height: 26vh;
+  }
+}
+@media (max-width:320px) and  (orientation: landscape) {
+  .first{
+    height: 18vh;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .third {    
+    flex-direction: column;
+    width: 100%;
+  }
+  .third-two{
+    width: 100%;
+    margin: 0px;
+    height: 18vh;
+  }  
+  .fourth {
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0px;
+    flex-direction: column;
+}
+  .fourth>div{
+    height: 18vh;
+    width: 100%;
+  }
+  .fifth{
+    width: 100%;
+    margin: 0px;
+    height: 18vh;
+  }
+}
